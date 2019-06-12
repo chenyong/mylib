@@ -1,14 +1,9 @@
-# Buffers
-*~
-*#
 
-# Builds
 /target
-/resources/public/js/
+/node_modules
+/yarn.lock
+/package-lock.json
+/*.log
+.shadow-cljs/
 
-# Clojure
-**/.cpcache
-**/.nrepl-port
-
-# OS X
-.DS_Store
+.nrepl-port
